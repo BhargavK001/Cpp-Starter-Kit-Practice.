@@ -1,0 +1,21 @@
+There are two types of Templates
+1. Function Templates
+2. Class Templates.
+* Function Templates. *
+\*Syntax*/
+{
+    Important keywords:
+        1.Template
+        2.Class/TypeName
+    template<Class(Name)>
+}
+            ********************************OR********************************
+template<typename(name)>
+Example:
+template<class T>
+            ********************************OR********************************
+            template<typename T>
+Function definition:
+T Function_name(T arg1, T arg2)
+Function_call:
+Function_name<datatype>(arg1, arg2)
