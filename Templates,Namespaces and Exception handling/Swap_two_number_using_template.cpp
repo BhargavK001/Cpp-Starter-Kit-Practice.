@@ -2,7 +2,9 @@
 using namespace std;
 
 template<typename T>
-void my_swap(T& x, T& y) // we cannot use just swap word in cpp language we should use my_swap instead of swap or another name can be given.
+/* we cannot use just swap word in cpp language we should 
+use my_swap instead of swap or another name can be given.*/
+void my_swap(T& x, T& y) 
 {
     T temp = x;
     x = y;
